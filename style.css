@@ -5,152 +5,171 @@ Title: Module 6.3 BioSite CSS
 */
 /* General Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  /* Body Styling */
-  body {
-    background-color: #f1e6f1; /* Light lavender background */
-    color: #4a2f4b; /* Dark purple text for readability */
-    line-height: 1.6; /* Better line spacing */
-    font-size: 16px; /* Default font size */
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Headings */
-  h1, h2, h3 {
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-    line-height: 1.2;
-    color: #6a4c9c; /* Medium purple */
-  }
-  
-  /* Type scale for headings */
-  h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-  }
-  
-  h2 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
-  }
-  
-  h3 {
-    font-size: 1.75em;
-    margin-bottom: 0.5em;
-  }
-  
-  /* Paragraphs */
-  p {
-    margin-bottom: 1.5em;
-    font-size: 1.1em;
-    color: #5a3e69; /* Slightly lighter purple for text */
-  }
-  
-  /* Links */
-  a {
-    text-decoration: none;
-    color: #9b59b6; /* Light purple for links */
-    font-weight: bold;
-  }
-  
-  a:hover {
-    color: #8e44ad; /* Darker purple on hover */
-  }
-  
-  /* Buttons */
-  button {
-    background-color: #9b59b6; /* Light purple button */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 1.1em;
-  }
-  
-  button:hover {
-    background-color: #8e44ad; /* Darker purple on button hover */
-  }
-  
-  /* Images */
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; /* Rounded corners for images */
-  }
-  
-  /* Container for Layout */
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  
-  /* About Page Specific */
-  .about-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .about-container img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  }
-  
-  .about-container div {
-    flex: 1;
-  }
-  
-  /* Hobbies Page Specific */
-  ul.hobbies-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  ul.hobbies-list li {
-    background-color: #f5f0f5; /* Very light purple for each item */
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    font-size: 1.1em;
-    border: 1px solid #dcd3d9; /* Light border for list items */
-  }
-  
-  ul.hobbies-list li:hover {
-    background-color: #e1d8e6; /* Slightly darker purple on hover */
-  }
-  
-  /* Footer */
-  footer {
-    margin-top: 30px;
-    text-align: center;
-    color: #6a4c9c;
-    font-size: 1.2em;
-    padding-top: 20px;
-  }
-  
-  footer a {
-    color: #9b59b6;
-    text-decoration: underline;
-  }
-  
-  footer a:hover {
-    color: #8e44ad;
-  }
- /* Hobbies Page Specific */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f1e6f1; /* Light lavender background */
+  color: #4a2f4b; /* Dark purple text for readability */
+  line-height: 1.6; /* Better line spacing */
+  font-size: 16px; /* Default font size */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #6a4c9c; /* Medium purple */
+}
+
+/* Type scale for headings */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1.5em;
+  font-size: 1.1em;
+  color: #5a3e69; /* Slightly lighter purple for text */
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #9b59b6; /* Light purple for links */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #8e44ad; /* Darker purple on hover */
+}
+
+/* Buttons */
+button {
+  background-color: #9b59b6; /* Light purple button */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+button:hover {
+  background-color: #8e44ad; /* Darker purple on button hover */
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Container for Layout */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* About Page Specific */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.about-container div {
+  flex: 1;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin-bottom: 20px;
+  color: #6a4c9c; /* Medium purple */
+}
+
+/* Flexbox container for text and image in header */
+.intro-container {
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: column; /* Space out text and image */
+  align-items: center; /* Center items vertically */
+  gap: 20px; /* Add space between text and image */
+  margin-top: 20px;
+}
+
+/* Text Section in Header */
+.intro-text {
+  flex: 1; /* Allow the text to take up remaining space */
+  text-align: center; /* Align text to the cente */
+  font-size: 1.2em; /* Slightly larger font size */
+  color: #4a2f4b; /* Dark purple */
+  max-width: 600px;
+}
+
+/* Image Section in Header */
+.intro-image {
+  flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.intro-image img {
+  width: 200px; /* Set a fixed width for the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%;
+  border: 4px solid #6a4c9c;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #6a4c9c;
+  font-size: 1.2em;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+footer :hover {
+  color: #1f0226;
+}
+
+/* Hobbies Page Specific */
 ul.hobbies-list {
   list-style-type: none;
   padding: 0;
@@ -178,4 +197,4 @@ ul.hobbies-list img {
   border-radius: 5px; /* Rounded corners for images */
   margin-left: 10px; /* Add some space between the text and image */
   object-fit: cover; /* Ensure images maintain aspect ratio */
-} 
+}
