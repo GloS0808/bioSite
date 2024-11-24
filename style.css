@@ -150,4 +150,32 @@ Title: Module 6.3 BioSite CSS
   footer a:hover {
     color: #8e44ad;
   }
-  
+ /* Hobbies Page Specific */
+ul.hobbies-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.hobbies-list li {
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Center text and image vertically */
+  justify-content: space-between; /* Ensure space between text and image */
+  background-color: #f5f0f5; /* Very light purple for each item */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  border: 1px solid #dcd3d9; /* Light border for list items */
+}
+
+ul.hobbies-list li:hover {
+  background-color: #e1d8e6; /* Slightly darker purple on hover */
+}
+
+ul.hobbies-list img {
+  width: 50px; /* Set a fixed width for images */
+  height: 50px; /* Set a fixed height for images */
+  border-radius: 5px; /* Rounded corners for images */
+  margin-left: 10px; /* Add some space between the text and image */
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+} 
